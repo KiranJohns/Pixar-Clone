@@ -1,0 +1,104 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing:border-box;
+overflow-x: hidden;
+}
+.logo img{
+max-width: 129px ;
+
+}
+nav.new{
+    background-color: white;
+    padding: 30px 100px;
+}
+nav ul{
+    white-space: nowrap;
+}
+
+nav li{
+   margin: auto;
+    width: 12%;
+    display: inline-block;
+}
+nav li a{
+    text-decoration: none;
+    color: #1D1D1D;
+    font: 20px brandon-grotesque;
+}
+main{
+
+}
+.home{
+   height: 100vh;
+   width: 100vw;
+position: relative;
+     background-image: url('./Light_header.jpg');
+   background-size: 100% 100%;
+   
+
+}
+.light2{
+    left: 10%;
+    top: 45%;
+    position: absolute;
+}
+.Images{
+display: flex;
+flex-wrap: nowrap;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding: 100px;
+}
+.line{
+margin-left: 50px;
+margin-left: 50px;
+padding-top: 170px;
+ 
+
+   overflow-y: hidden;
+}
+.line img{
+width: 400px;
+height: 250px;
+}
+.line h4 {
+    text-align: center;
+    padding: 1rem;
+}
+.logos{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 40px;
+    
+}
+.block{
+padding-left: 10px;
+padding-right: 10px;
+overflow-y: hidden;
+
+}
+.block img{
+    height: 25px;
+}
+.foot{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center; 
+    padding: 20px 20px;   
+}
+.one a{
+    text-decoration: none;
+    color: #1D1D1D;
+    padding: 0px 10px;
+    text-decoration: underline;
+}
+.copy{
+    text-align: center;
+}
+
